@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>synology-note-station-client</id>
+    <version>123</version>
+    <packageSourceUrl>https://github.com/Mr1BitL8r/chocolatey-packages/synology-note-station-client</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>Mr1BitL8r</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Synology Note Station Client</title>
+    <authors>Synology Inc.</authors>
+    <projectUrl>https://www.synology.com/en-us/dsm/feature/note_station</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Mr1BitL8r/chocolatey-packages@main/synology-note-station-client/icon/synology-note-station-client.png</iconUrl>
+    <copyright>2022 Synology Inc.</copyright>
+    <licenseUrl>https://www.synology.com/en-global/company/legal/terms_EULA</licenseUrl>
+    <tags>Synology Note Station NoteStation</tags>
+    <summary>Client software to connect with Note Station on a Synology NAS.</summary>
+    <description>Synology Note Station Client connects you with Note Station on your Synology NAS. You can manage all the notes/to-do list offline, right from your local computer.</description>
+    <releaseNotes>https://www.synology.com/en-us/releaseNote/NoteStationClient</releaseNotes>
+    <!-- =============================== -->      
+
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
